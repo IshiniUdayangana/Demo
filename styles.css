@@ -1,0 +1,61 @@
+#heading{
+    background-color: rgb(19, 19, 72);
+    color: aqua;
+}
+
+.paragraph{
+    background-color: rgb(195, 134, 134);
+	color: rgb(7, 54, 7);
+	text-align: center;
+	font-size: 20px;
+	padding: 20px;
+	font-weight: 700;
+
+
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 100px;
+    font-weight: 700;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(29, 29, 124);
+}
+.btn:active{
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe_Jxe6goQlqNerSFZnpvAXAf0QOsqn_hXnw&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.box1{
+    position: sticky;
+    left: 20px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+}
+.box2{
+    position: sticky;
+    top: 20px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}
+.official{color: blue;}
